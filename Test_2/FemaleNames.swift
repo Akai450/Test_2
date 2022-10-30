@@ -7,6 +7,6 @@ class FemaleNames: DataBase {
         super.init(name: name, count: count, storage: storage)
     }
     override func showInfo() {
-        print ("Наименование Базы данных - \(name) Список имен - \(nameOfFemales.sorted())\n Количество кыргызских женских имен - \(count)\nМесто хранения данных - \(storage)")
+        print ("Наименование Базы данных - \(name)\nСписок имен - \(nameOfFemales.sorted())\nКоличество кыргызских женских имен - \(count)\nМесто хранения данных - \(storage)")
     }
 }
